@@ -7,6 +7,8 @@ This is a very early alpha!
 GAM-gen runs on node.js 10.15.3 (download at nodejs.org)(it should work on other versions but hasn't been tested).
 It does not require any extra packages to run.
 
+GAM-GEN DOES NOT YET WORK. DO NOT REPORT ISSUES OF IT NOT WOKRING.
+
 To run:
 1. Download .zip of this repository.
 2. Extract the .zip
