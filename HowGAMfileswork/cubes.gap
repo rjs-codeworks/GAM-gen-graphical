@@ -1,0 +1,5 @@
+EW schwarz,1,Projekt		//This line defines the kind of character to be created (EW=cube schwarz=black,1=size?,Projekt is not used)
+  T(1,0,0)			//relocaded to (x,y,z)
+  T(1,0,0)			//relocated to (x,y,z)
+EW schwarz,1,Projekt		//This line defines the kind of character to be created (EW=cube schwarz=black,1=size?,Projekt is not used)
+  S(2,2,2)			//redefines size of edges to (x,y,z)
