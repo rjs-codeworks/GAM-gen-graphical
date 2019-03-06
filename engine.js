@@ -10,25 +10,33 @@ const rl = readline.createInterface({
 var mode = "default";
 
 class command {
-  constructor(commandF/*,DEFfunction*/) {
-    //this.DEFfunction = DEFfunction;
+  constructor(commandF,DEFfunction) {
+    this.DEFfunction = DEFfunction;
     this.command = commandF;
   }
   command() {
     return commandF;
   }
+  call() {
+    DEFfunction();
+  }
 }
 
 var commands = [
-  createObj = new command("create")
+  createObj = new command("create", function () {
+    
+  })
 ]
 
 rl.on('line', function(line) {
+    args = line.split(" ");
     for (var i = 0; i < commands.length; i++) {
       if (commands[i].command == line) {
-        console.log("command registerd");
+        console.log(">>Command registered");
+        commands[i].call;
+        return;
       } else {
-        console.log("get fucked this shit dosent exist");
+        console.log(">>Unknow Command");
       }
     }
 })
