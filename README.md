@@ -10,8 +10,8 @@ It does not require any extra packages to run.
 GAM-GEN DOES NOT YET WORK. DO NOT REPORT ISSUES OF IT NOT WOKRING.
 
 To run:
-1. Download .zip of this repository.
-2. Extract the .zip
+1. Download the "GAM-gen [version] source.zip" of the latest release  
+2. Extract the .zip 
 3. Open command prompt/terminal
 4. Navigate to the folder
 5. Execute this command: node main.js 
